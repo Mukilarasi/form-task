@@ -1,0 +1,59 @@
+body {
+    display: flex;
+     flex-direction: column; 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right top, #330537, #860c40, #c54828, #d59800, #a8eb12);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(56, 4, 14);
+      margin: 0px;  
+}
+
+.container{
+    height: 650px;
+    width: 40%;
+    font-weight: bold;
+    background: cornsilk;
+    padding: 5px;
+    border-radius: 10px;
+    /* align-items: center; */
+}
+
+p {
+    font-size: larger;
+}
+
+input[type="number"] {
+    color: blue;
+    font-weight: bold;
+    width: 188px;
+}
+
+input[type="text"] {
+    color: blue;
+    font-weight: bold;
+}
+
+input[type="password"] {
+    color: blue;
+    font-weight: bold;
+}
+
+input[type="mail id"] {
+    color: blue;
+    font-weight: bold;
+}
+
+input[type="tel"] {
+    color: blue;
+    font-weight: bold;
+}
+
+textarea {
+    width: 200px;
+    height: 50px;
+    resize: none;
+    color: blue;
+    font-weight: bold;
+}

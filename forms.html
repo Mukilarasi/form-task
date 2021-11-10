@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div>
+                <label for="username">Name:</label>
+                <input required type="text" placeholder="Enter your name" id="username"><br><br>
+                <label for="username" >Age:</label>
+                <input type="number" placeholder="Enter your age" id="Age" min="18" max="35"><br><br>
+                <label for="phone ">Phone :</label>
+                <input id="phone" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    placeholder="Enter phone number" required><br>
+                <small>Format:123-123-1234</small><br> <br>
+                <label for="mail id">Mail id</label>
+                <input required type="mail id" placeholder="Enter your valid mail id" id="mail id"><br><br> <label
+                    for="password">Password</label>
+                <input required type="password" placeholder="Enter your valid mail id id" password><br><br>
+                <label for="address">Address</label>
+                <textarea name="address" id="address" rows="30" cols="10"></textarea><br><br>
+                <label for="Date">Date</label>
+                <input type="date" placeholder="10-11-2021">
+
+            </div>
+
+            <div>
+                <p>Select a state</p>
+
+                <select name="State" id="State" multiple>
+                    <option value="TL">Tamilnadu</option>
+                    <option value="MH">Maharastra</option>
+                    <option value="KR">Karnataka</option>
+                    <option value="DL">Delhiu</option>
+                    <option value="KL">Kerla</option>
+                </select>
+            </div>
+
+            <p>Gender</p>
+
+            <input type="radio" value="male" name="gender" id="male">
+            <label for="male">male</label>
+            <input type="radio" value="female" name="gender" id="female">
+            <label for="female">female</label>
+
+            <p>Hobbies</p>
+            <div>
+                <label for="gaming">gaming</label>
+                <input type="checkbox" value="gaming" name="Hobbies" id="gaming">
+                <label for="cooking">cooking</label>
+                <input type="checkbox" value="cooking" name="Hobbies" id="cooking">
+                <label for="badminton">badminton</label>
+                <input type="checkbox" value="badminton" name="Hobbies" id="badminton">
+                <label for="reading">reading</label>
+                <input type="checkbox" value="reading" name="Hobbies" id="reading">
+            </div>
+            <br>
+
+            <button type="submit">save</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
